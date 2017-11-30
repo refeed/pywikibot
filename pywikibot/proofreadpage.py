@@ -531,6 +531,12 @@ class ProofreadPage(pywikibot.Page):
 
             soup = Soup(response.content)
 
+            print('^^^^^^^^^^^^^^^^^^^^^')
+            print(url)
+            print('vvvvvvvvvvvvvvvvvvvvv')
+            print(response.content)
+            print('=====================')
+
             try:
                 # None if nothing is found by .find()
                 self._url_image = soup.find(class_='prp-page-image')
