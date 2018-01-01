@@ -45,6 +45,7 @@ script_deps = {
     'match_images': ['PIL.ImageTk'],
     'states_redirect': ['pycountry'],
     'patrol': ['mwparserfromhell'],
+    'download_dump': ['bs4'],
 }
 
 if PYTHON_VERSION < (2, 7):
